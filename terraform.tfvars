@@ -1,0 +1,17 @@
+public_subnet_cidrs       = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+private_subnet_cidrs      = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
+azs                       = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
+instance_tenancy          = "default"
+region                    = "eu-west-2"
+ec2_sg_name               = "ec2-sg"
+rsa_bits                  = 4096
+algorithm                 = "RSA"
+key_name                  = "zeheEc2-key"
+instance_type             = "t2.micro"
+asg_name                  = "zehe-website"
+asg_max_size              = 5
+asg_min_size              = 1 
+asg_desired               = 3
+health_check_grace_period = 3600
+rds_master_password       = "my0g4D3_pR0j3ctr4hhhh"
+rds_master_username       = "zehe0ffIci4L"
