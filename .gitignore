@@ -1,0 +1,8 @@
+*.log
+/AWS-website-hosting
+*.pyc
+/__pycache__
+_DS_Store
+.terraform
+terraform.tfstate*
+*.lock.hcl
